@@ -8,7 +8,7 @@ export default class Card extends React.Component {
       <div className="section section-what-usp">
         <div className="component-section-header">
           <div className="title-badge">
-            <div className="title-badge-title">Do you want to</div>
+            <div className="title-badge-title">{this.props.content}</div>
           </div>
 
           <h2>
