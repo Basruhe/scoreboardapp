@@ -29,20 +29,12 @@ function App() {
 
       <div className="content">
         <div className="section section-what-usp">
-          <div className="component-section-header">
-            <div className="title-badge">
-              <div className="title-badge-title">Do you want to</div>
-            </div>
-
-            <h2>
-              <div className="component-title ">Learn how to code</div>
-            </h2>
-
-            <div className="description">
-              Awesome! Let’s do this together. We are here to support you in
-              your coding journey.
-            </div>
-          </div>
+          <Card
+            badge="Do you want to"
+            header="Learn how to code"
+            description="Awesome!Awesome! Let’s do this together. We are here to support you in
+your coding journey."
+          />
 
           <div className="component-usp-row">
             <Imgcard
@@ -65,20 +57,12 @@ function App() {
         </div>
 
         <div className="section section-courses-usp">
-          <div className="component-section-header">
-            <div className="title-badge">
-              <div className="title-badge-title">Courses</div>
-            </div>
-
-            <h2>
-              <div className="component-title ">Our Courses</div>
-            </h2>
-
-            <div className="description">
-              We have created courses to help you learn, with easy to follow
-              steps and some sparks of fun!
-            </div>
-          </div>
+          <Card
+            badge="Courses"
+            header="Our Courses"
+            description=" We have created courses to help you learn, with easy to follow
+            steps and some sparks of fun!"
+          />
 
           <div className="component-usp-row">
             <Imgcard
@@ -101,22 +85,14 @@ function App() {
         </div>
 
         <div className="section section-why-usp">
-          <div className="component-section-header">
-            <div className="title-badge">
-              <div className="title-badge-title">Why?</div>
-            </div>
-
-            <h2>
-              <div className="component-title ">Why do we do this</div>
-            </h2>
-
-            <div className="description">
-              It’s really simple actually. We just love to combine our passion
-              for code with our love for teaching. Coding is so much fun when
-              doing it together.
-            </div>
-          </div>
-
+          <Card
+            badge="Why?"
+            header="Why do we do this"
+            description="It’s really simple actually. We just love to combine our passion
+            for code with our love for teaching. Coding is so much fun when
+            doing it together."
+          />
+          {/* / Note: this last section is not refactored into components */}
           <div className="component-usp-row">
             <div className="item team">
               <img
