@@ -8,46 +8,14 @@ export default class Card extends React.Component {
       <div className="section section-what-usp">
         <div className="component-section-header">
           <div className="title-badge">
-            <div className="title-badge-title">{this.props.content}</div>
+            <div className="title-badge-title">{this.props.badge}</div>
           </div>
 
           <h2>
-            <div className="component-title ">Learn how to code</div>
+            <div className="component-title ">{this.props.header}</div>
           </h2>
 
-          <div className="description">
-            Awesome! Let’s do this together. We are here to support you in your
-            coding journey.
-          </div>
-        </div>
-        <div className="component-usp-row">
-          <div className="item team">
-            <img
-              className="image"
-              src="https://learntocodetogether.nl/assets/team.svg"
-            />
-            <div className="component-title title">
-              Get help from experienced developers
-            </div>
-          </div>
-          <div className="item team">
-            <img
-              className="image"
-              src="https://learntocodetogether.nl/assets/community.svg"
-            />
-            <div className="component-title title">
-              Learn &amp; share with our community
-            </div>
-          </div>
-          <div className="item team">
-            <img
-              className="image"
-              src="https://learntocodetogether.nl/assets/personal-speed.svg"
-            />
-            <div className="component-title title">
-              Personal &amp; at your own speed
-            </div>
-          </div>
+          <div className="description">{this.props.description}</div>
         </div>
       </div>
     );
